@@ -8,6 +8,7 @@
 
 namespace api\controllers;
 
+use api\models\User;
 use Yii;
 use yii\rest\ActiveController;
 use api\models\LoginForm;
