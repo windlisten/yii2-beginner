@@ -62,6 +62,12 @@ return [
                         'POST login'=>'login',
                     ],
                 ],
+                ['class' => 'yii\rest\UrlRule',
+                    'controller' => 'article',
+                    'extraPatterns'=>[
+
+                    ],
+                ],
             ],
         ],
         'response' => [
